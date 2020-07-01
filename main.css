@@ -6505,7 +6505,7 @@ h5,
 h6 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-weight: 900
+  font-weight: 1000;
 }
 .h6,
 .h6 p,
@@ -6516,7 +6516,7 @@ h6 {
   -moz-osx-font-smoothing: auto;
   font-size: 14px;
   letter-spacing: .05em;
-  font-weight: 700;
+  font-weight: 1000;
   font-size: 13px
 }
 
