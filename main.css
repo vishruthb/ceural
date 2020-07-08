@@ -103,7 +103,7 @@ input[type=submit].button {
   color: #fff;
   font-size: 14px;
   font-style: normal;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
   min-width: 128px;
   min-width: 8rem;
@@ -6238,6 +6238,20 @@ textarea {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
 }
+@font-face {
+font-family: 'Uber Move Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Uber Move Medium'), url('UberMoveMedium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Uber Move Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Uber Move Bold'), url('UberMoveBold.woff') format('woff');
+}
 
 .h1,
 .h2,
@@ -6258,9 +6272,9 @@ h6 {
 .h1,
 .h1 p,
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family:'raleway', sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.2em;
   letter-spacing: .025em;
   -webkit-font-smoothing: antialiased;
@@ -6503,14 +6517,15 @@ h5 {
 .h6 p,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  font-weight: 1000;
+  font-weight: 600;
 }
 .h6,
 .h6 p,
 h6 {
   letter-spacing: .125em;
+font-family: "Questrial", sans-serif;
   line-height: 1.4em;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
@@ -6544,7 +6559,7 @@ p {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: inherit;
-  font-weight: 400;
+  font-weight: ;
   text-transform: none
 }
 
